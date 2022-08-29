@@ -1,7 +1,27 @@
+/* code below written by me before the review -- will comment any changes made */
+
 /* Please Make only Rhino and Zebra Blue */
+
+#rhino, #zebra {
+    color: blue;
+}
 
 /* Please Make only Hufflepuff Gold */
 
+#bestHouse {
+    color: gold;
+}
+
 /* Please select Duck with the highest level of specificity possible */
 
+
+
+html body > article .areDucksDinosaurs h2 .likeToQuack .fight10r100 {
+
+}
+
 /* Please select Rhino with the highest level of specificity possible */
+
+html body h1 #hi + section .top h2 #rhino .africa .fourLegs {
+
+}
