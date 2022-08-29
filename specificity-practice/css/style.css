@@ -6,6 +6,14 @@
     color: blue;
 }
 
+/* could also use:
+.fourLegs {
+}
+---- or ---
+.africa {
+}
+*/
+
 /* Please Make only Hufflepuff Gold */
 
 #bestHouse {
@@ -14,11 +22,12 @@
 
 /* Please select Duck with the highest level of specificity possible */
 
-
-
 html body > article .areDucksDinosaurs h2 .likeToQuack .fight10r100 {
-
+    color:purple;
 }
+
+/* could add --- html head + body h1#hi + section.top + section.middle with !important --- before the article */
+
 
 /* Please select Rhino with the highest level of specificity possible */
 
