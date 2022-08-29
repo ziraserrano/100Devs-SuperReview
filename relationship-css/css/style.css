@@ -5,3 +5,12 @@
 h2 {
     color: red;
 }
+
+/* make h2's World and Zebra blue while all others stay red */
+
+section > h2 {
+    color: blue; 
+}
+
+/* h2 is a direct child of this section - all other h2's have a different parent so no further specificity needed ---> note: needed to add the carrot for direct child relationship which I should've done the first time around */
+
