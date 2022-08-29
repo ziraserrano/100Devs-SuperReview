@@ -14,3 +14,11 @@ section > h2 {
 
 /* h2 is a direct child of this section - all other h2's have a different parent so no further specificity needed ---> note: needed to add the carrot for direct child relationship which I should've done the first time around */
 
+/* make Duck purple */
+
+section + article > h2 {
+    color: purple;
+}
+
+/* need to differentiate both articles by adding the sibling article of the section */
+
