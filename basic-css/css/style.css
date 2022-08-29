@@ -9,6 +9,7 @@ h1 {
 h2 {
     color: purple;
     font-weight: 800;
+    font-size: 25px;
     border: 2px solid orange;
 }
 
