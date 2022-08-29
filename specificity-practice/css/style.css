@@ -32,5 +32,5 @@ html body > article .areDucksDinosaurs h2 .likeToQuack .fight10r100 {
 /* Please select Rhino with the highest level of specificity possible */
 
 html body h1 #hi + section .top h2 #rhino .africa .fourLegs {
-
+    color: green;
 }
