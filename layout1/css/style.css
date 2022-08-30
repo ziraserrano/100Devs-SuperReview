@@ -34,3 +34,33 @@ body {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
+/* code written by me below */
+
+header, footer{
+  height: 100px;
+  border: 1px solid black;
+}
+
+.top{
+  height: 400px;
+}
+
+.top section{
+  height: 100%;
+  width: 33.33%;
+  border: 1px solid black;
+  float: right;
+}
+
+.bottom {
+  height: 400px;
+}
+
+.bottom section{
+  height: 100%;
+  width: 50%;
+  border: 1px solid black;
+  float: right;
+}
