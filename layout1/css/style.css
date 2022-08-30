@@ -64,3 +64,31 @@ header, footer{
   border: 1px solid black;
   float: right;
 }
+
+
+/* could also do: 
+
+section{
+  height: 200px;
+  width: 33.333%;
+  border: 1px solid black;
+  float: left; 
+}
+
+.bottom{   <--- when only putting a class to the 2 bottom sections
+  width: 50%
+}
+
+this leave the footer and header next to each other still -- but all sections are in place (with shorter code than I wrote)
+
+in order to help the header and footer separate -> we need to clear it by adding
+
+header, footer{
+  clear: both;
+}
+
+
+
+--> note: need to practice combining code with the same properties! <----
+
+*/
